@@ -27,11 +27,13 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-/* =Import Styles
+/* =Import Parent theme style
+-------------------------------------------------------------- */
+/* =Import compass utilities
 -------------------------------------------------------------- */
 /* =Start From Here
 -------------------------------------------------------------- */
-/* line 47, sass/style.scss */
+/* line 50, sass/style.scss */
 body {
   background-color: #d046d9;
 }
@@ -39,17 +41,17 @@ body {
 /* Media Print
 -------------------------------------------------------------- */
 @media print {
-  /* line 59, sass/style.scss */
+  /* line 62, sass/style.scss */
   h1 {
     page-break-before: always;
   }
 
-  /* line 63, sass/style.scss */
+  /* line 66, sass/style.scss */
   h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid;
   }
 
-  /* line 67, sass/style.scss */
+  /* line 70, sass/style.scss */
   ul, ol, dl {
     page-break-before: avoid;
   }
@@ -60,58 +62,58 @@ body {
 /* =Responsive (Mobile) Design
 -------------------------------------------------------------- */
 @media screen and (max-width: 980px) {
-  /* line 91, sass/style.scss */
+  /* line 94, sass/style.scss */
   .grid,
   .grid-right {
     float: none;
   }
 
-  /* line 95, sass/style.scss */
+  /* line 98, sass/style.scss */
   #featured-image .fluid-width-video-wrapper {
     margin: 20px 0 0 0;
   }
 
-  /* line 99, sass/style.scss */
+  /* line 102, sass/style.scss */
   .home #widgets {
     margin-top: 40px;
   }
 
-  /* line 104, sass/style.scss */
+  /* line 107, sass/style.scss */
   .top-widget,
   .home .top-widget {
     margin-top: 0 !important;
   }
 
-  /* line 108, sass/style.scss */
+  /* line 111, sass/style.scss */
   .hide-980 {
     display: none;
   }
 
-  /* line 112, sass/style.scss */
+  /* line 115, sass/style.scss */
   .show-980 {
     display: block;
   }
 }
 @media screen and (max-width: 650px) {
-  /* line 122, sass/style.scss */
+  /* line 125, sass/style.scss */
   #logo {
     float: none;
     margin: 0;
     text-align: center;
   }
 
-  /* line 129, sass/style.scss */
+  /* line 132, sass/style.scss */
   .grid,
   .grid-right {
     float: none;
   }
 
-  /* line 133, sass/style.scss */
+  /* line 136, sass/style.scss */
   #featured-image .fluid-width-video-wrapper {
     margin: 20px 0 0 0;
   }
 
-  /* line 137, sass/style.scss */
+  /* line 140, sass/style.scss */
   .top-widget {
     float: none;
     margin: 0 auto 10px auto;
@@ -120,18 +122,18 @@ body {
     width: auto;
   }
 
-  /* line 145, sass/style.scss */
+  /* line 148, sass/style.scss */
   .top-widget .widget-title {
     text-align: center;
   }
 
-  /* line 150, sass/style.scss */
+  /* line 153, sass/style.scss */
   .js .menu,
   .js .sub-header-menu {
     display: none;
   }
 
-  /* line 155, sass/style.scss */
+  /* line 158, sass/style.scss */
   .top-menu,
   .footer-menu li {
     float: none;
@@ -139,72 +141,72 @@ body {
     text-align: center;
   }
 
-  /* line 161, sass/style.scss */
+  /* line 164, sass/style.scss */
   .tinynav {
     display: block;
   }
 
-  /* line 165, sass/style.scss */
+  /* line 168, sass/style.scss */
   .sb-holder {
     display: block;
   }
 
-  /* line 169, sass/style.scss */
+  /* line 172, sass/style.scss */
   #author-meta {
     padding: 20px;
   }
 
-  /* line 173, sass/style.scss */
+  /* line 176, sass/style.scss */
   .hide-650 {
     display: none;
   }
 
-  /* line 177, sass/style.scss */
+  /* line 180, sass/style.scss */
   .show-650 {
     display: block;
   }
 
-  /* line 181, sass/style.scss */
+  /* line 184, sass/style.scss */
   #footer {
     text-align: center;
   }
 
-  /* line 185, sass/style.scss */
+  /* line 188, sass/style.scss */
   #footer .social-icons {
     padding-bottom: 10px;
     text-align: center;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 195, sass/style.scss */
+  /* line 198, sass/style.scss */
   #logo {
     float: none;
     text-align: center;
   }
 
-  /* line 201, sass/style.scss */
+  /* line 204, sass/style.scss */
   .grid,
   .grid-right {
     float: none;
   }
 
-  /* line 205, sass/style.scss */
+  /* line 208, sass/style.scss */
   #featured-image .fluid-width-video-wrapper {
     margin: 20px 0 0 0;
   }
 
-  /* line 209, sass/style.scss */
+  /* line 212, sass/style.scss */
   .featured-title {
     font-size: 40px;
     padding: 40px 20px 0 20px;
   }
 
-  /* line 214, sass/style.scss */
+  /* line 217, sass/style.scss */
   .featured-subtitle {
     font-size: 24px;
   }
 
-  /* line 219, sass/style.scss */
+  /* line 222, sass/style.scss */
   .navigation .next,
   .navigation .previous {
     display: block;
@@ -212,7 +214,7 @@ body {
     text-align: center;
   }
 
-  /* line 229, sass/style.scss */
+  /* line 232, sass/style.scss */
   .menu ul,
   .menu li,
   .top-menu,
@@ -223,83 +225,83 @@ body {
     text-rendering: optimizeSpeed;
   }
 
-  /* line 235, sass/style.scss */
+  /* line 238, sass/style.scss */
   .hide-480 {
     display: none;
   }
 
-  /* line 239, sass/style.scss */
+  /* line 242, sass/style.scss */
   .show-480 {
     display: block;
   }
 
-  /* line 243, sass/style.scss */
+  /* line 246, sass/style.scss */
   #footer {
     text-align: center;
   }
 
-  /* line 247, sass/style.scss */
+  /* line 250, sass/style.scss */
   #footer .social-icons {
     text-align: center;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 256, sass/style.scss */
+  /* line 259, sass/style.scss */
   #featured p {
     font-size: 12px;
     line-height: 1.5em;
   }
 
-  /* line 261, sass/style.scss */
+  /* line 264, sass/style.scss */
   .featured-title {
     font-size: 35px;
   }
 
-  /* line 265, sass/style.scss */
+  /* line 268, sass/style.scss */
   .featured-subtitle {
     font-size: 15px;
   }
 
-  /* line 269, sass/style.scss */
+  /* line 272, sass/style.scss */
   .call-to-action a.button {
     font-size: 14px;
     padding: 7px 17px;
   }
 
-  /* line 274, sass/style.scss */
+  /* line 277, sass/style.scss */
   .hide-320 {
     display: none;
   }
 
-  /* line 278, sass/style.scss */
+  /* line 281, sass/style.scss */
   .show-320 {
     display: block;
   }
 }
 @media screen and (max-width: 240px) {
-  /* line 287, sass/style.scss */
+  /* line 290, sass/style.scss */
   #featured p {
     font-size: 11px;
     line-height: 1.5em;
   }
 
-  /* line 292, sass/style.scss */
+  /* line 295, sass/style.scss */
   .featured-title {
     font-size: 20px;
   }
 
-  /* line 296, sass/style.scss */
+  /* line 299, sass/style.scss */
   .featured-subtitle {
     font-size: 11px;
   }
 
-  /* line 300, sass/style.scss */
+  /* line 303, sass/style.scss */
   .call-to-action a.button {
     font-size: 12px;
     padding: 5px 15px;
   }
 
-  /* line 309, sass/style.scss */
+  /* line 312, sass/style.scss */
   .top-widget area,
   .top-widget select,
   .top-widget textarea,
@@ -308,7 +310,7 @@ body {
     width: 75%;
   }
 
-  /* line 314, sass/style.scss */
+  /* line 317, sass/style.scss */
   .widget-title,
   .widget-title-home h3 {
     font-size: 14px;
@@ -317,12 +319,12 @@ body {
     text-align: left;
   }
 
-  /* line 321, sass/style.scss */
+  /* line 324, sass/style.scss */
   .hide-240 {
     display: none;
   }
 
-  /* line 325, sass/style.scss */
+  /* line 328, sass/style.scss */
   .show-240 {
     display: block;
   }

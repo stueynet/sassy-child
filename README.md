@@ -14,7 +14,7 @@ What you need
 First off you need the [Responsive Parent Theme](http://wordpress.org/extend/themes/responsive). This theme you are looking at only a child theme so it doesn't work on its own. It relies on the parent theme for the core functionality and style much like a child relying on her parent for love and food. So download it first. Then download this theme and drop it into your themes directory so it will look like this:
 
 /wp-content/themes/responsive
-/wp-content/themes/sass-responsive-wordpress-theme
+/wp-content/themes/sass-responsive-child-theme
 
 Then you can activate the child theme and it should just work. You know it did because the background will now be a sassy pink color.
 
