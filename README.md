@@ -11,7 +11,14 @@ This is a starter child theme for the [Responsive](http://wordpress.org/extend/t
 What you need
 -------------
 
-You need/want/should have compass and sass rolling. To do that fire up Terminal on your mac and do the following:
+First off you need the [Responsive Parent Theme](http://wordpress.org/extend/themes/responsive). This theme you are looking at only a child theme so it doesn't work on its own. It relies on the parent theme for the core functionality and style much like a child relying on her parent for love and food. So download it first. Then download this theme and drop it into your themes directory so it will look like this:
+
+/wp-content/themes/responsive
+/wp-content/themes/sass-responsive-wordpress-theme
+
+Then you can activate the child theme and it should just work. You know it did because the background will now be a sassy pink color.
+
+Next you need/want/should have compass and sass rolling. To do that fire up Terminal on your mac and do the following:
 
    sudo gem install compass
 
