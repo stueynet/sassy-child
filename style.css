@@ -31,22 +31,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------- */
 /* =Start From Here
 -------------------------------------------------------------- */
-#featured, .widget-wrapper {
-  border: 2px solid #cccccc;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  border-radius: 30px;
-}
-
-body {
-  background: white;
-}
-
-.widget-wrapper {
-  background: #efefef;
-}
-
 /* Media Print
 -------------------------------------------------------------- */
 @media print {

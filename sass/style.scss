@@ -42,40 +42,6 @@ $experimental-support-for-khtml:false;
 /* =Start From Here
 -------------------------------------------------------------- */
 
-// Lets set up some fucking variables
-$body-background: #FFFFFF;
-$box-background: #EFEFEF;
-$border-style: solid;
-$border-color: #CCCCCC;
-$border-width: 2px;
-$border-radius: 10px;
-
-// lets some up some motherfucking mixins guy
-
-// this defines how the borders of shit look
-%box-border{
-    border: $border-width $border-style $border-color;
-    @include border-radius(30px);
-}
-
-
-
-// Now we write our styles n shit
-
-body{
-    background: $body-background;
-}
-
-
-
-#featured{
-    @extend %box-border;
-}
-
-.widget-wrapper{
-    @extend %box-border;
-    background: $box-background;
-}
 
 
 
