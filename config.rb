@@ -5,7 +5,6 @@ http_path = "/"
 css_dir = "/"
 sass_dir = "sass"
 images_dir = "/images"
-javascripts_dir = "javascripts"
 
 # this output style compresses the css but leaves the important WordPress stylesheet comments at the top so it can still use the theme
 # output_style = :compressed
