@@ -6,8 +6,12 @@ css_dir = "/"
 sass_dir = "sass"
 images_dir = "/images"
 javascripts_dir = "javascripts"
-#output_style = :compressed
-line_comments = false
+
+# this output style compresses the css but leaves the important WordPress stylesheet comments at the top so it can still use the theme
+# output_style = :compressed
+# line_comments = false
+
+
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 
