@@ -1,7 +1,7 @@
 Responsive Child theme with Sass!
 =================================
 
-A child theme for the Responsive WordPress theme that uses SASS/SCSS for editing the style.
+This is a starter child theme for the [Responsive](http://wordpress.org/extend/themes/responsive) WordPress parent theme that uses SASS/SCSS for editing the style.
 
   - Use SASS to create sexy css 
   - Be amazing
