@@ -13,6 +13,6 @@ What you need
 
 You need/want/should have compass and sass rolling. Do do that fir up Terminal on your mac and do the following:
 
-<sudo gem install compass>
+   sudo gem install compass
 
 Uh thats it. You are done. If you want to learn more about SASS or CSS you should check out this thing called Google.
